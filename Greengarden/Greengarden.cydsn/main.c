@@ -1,7 +1,7 @@
 #include "project.h"
 #include <stdio.h>
 
-#define WATERING_TIME_IN_SEC 10
+#define WATERING_TIME_IN_SEC 1
 #define STARTING_HOUR 10
 #define ENDING_HOUR 20
 #define NUMBER_OF_MEASUREMENTS 10
@@ -105,6 +105,9 @@ int main(void)
     CyGlobalIntEnable; 
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    Pin_LED_blue_Write(OFF);
+    Pin_pump_Write(OFF);
+    
     UART_Start();
     RTC_Start();
     Pin_Light_Sensor_int_StartEx(Pin_Light_Sensor_Handler);
@@ -113,8 +116,11 @@ int main(void)
     sprintf(buffer, "Let's go\r\n");
     UART_UartPutString(buffer);
     
+
+    
     for(;;)
     {
+        
     }
 }
 
