@@ -1,6 +1,7 @@
 #include "project.h"
 #include <stdio.h>
 
+#define WATERING_TIME_IN_SEC 10
 #define STARTING_HOUR 10
 #define ENDING_HOUR 20
 #define NUMBER_OF_MEASUREMENTS 10
@@ -12,6 +13,8 @@ char buffer[BUFFER_SIZE];
 
 void checkLight()
 {
+    sprintf(buffer, "Checking light\r\n");
+    UART_UartPutString(buffer);
     // Get current hour
     int hour = RTC_GetHours(RTC_GetTime());
     sprintf(buffer, "Current hour: %d\r\n", hour);
@@ -55,13 +58,30 @@ void checkLight()
 
 void checkMoisture()
 {
-    if (Pin_Moisture_Sensor_Read())
+    sprintf(buffer, "Checking moisture\r\n");
+    UART_UartPutString(buffer);
+    int positive_measurements = NUMBER_OF_MEASUREMENTS;
+    // Make several measurements of the moisture sensor
+    for(int i = 0; i < NUMBER_OF_MEASUREMENTS; i++){
+        positive_measurements -= Pin_Moisture_Sensor_Read();
+        CyDelay(50);
+    }
+    sprintf(buffer, "Number of total measurements: %d\t Number of positive measurements: %d\r\n", NUMBER_OF_MEASUREMENTS, positive_measurements);
+    UART_UartPutString(buffer);
+
+    // If the ground isn't wet enough, water the plant for a specified amount of time
+    if (positive_measurements < NUMBER_OF_MEASUREMENTS/2)
     {
-        Pin_pump_Write(1);   
-    } 
-    else 
-    {
-        Pin_pump_Write(0);
+        // Turn pump on
+        sprintf(buffer, "Turning pump on\r\n");
+        UART_UartPutString(buffer);
+        Pin_pump_Write(ON);
+        // Wait for specified amount of watering time
+        CyDelay(WATERING_TIME_IN_SEC * 1000);
+        // Turn pump off
+        sprintf(buffer, "Turning pump off\r\n");
+        UART_UartPutString(buffer);
+        Pin_pump_Write(OFF);
     }
 }
 
@@ -70,6 +90,13 @@ CY_ISR(Pin_Light_Sensor_Handler)
     checkLight();
     
     Pin_Light_Sensor_ClearInterrupt();
+}
+
+CY_ISR(Pin_Moisture_Sensor_Handler)
+{
+    checkMoisture();
+    
+    Pin_Moisture_Sensor_ClearInterrupt();
 }
 
 int main(void)
@@ -81,18 +108,13 @@ int main(void)
     UART_Start();
     RTC_Start();
     Pin_Light_Sensor_int_StartEx(Pin_Light_Sensor_Handler);
+    Pin_Moisture_Sensor_int_StartEx(Pin_Moisture_Sensor_Handler);
     
     sprintf(buffer, "Let's go\r\n");
     UART_UartPutString(buffer);
     
     for(;;)
     {
-      
-        /* Place your application code here. */
-//        checkLight();
-//        checkMoisture();
-//        
-//        CyDelay(1000);
     }
 }
 
