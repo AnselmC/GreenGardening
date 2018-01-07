@@ -2,7 +2,7 @@
 --	Conversion of Greengarden.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Jan 03 16:33:55 2018
+--	Sun Jan 07 15:57:48 2018
 --
 
 USE cypress.cypress.all;
@@ -43,7 +43,7 @@ SIGNAL \UART:tmpIO_0__rx_net_0\ : bit;
 TERMINAL \UART:tmpSIOVREF__rx_net_0\ : bit;
 SIGNAL \UART:tmpINTERRUPT_0__rx_net_0\ : bit;
 SIGNAL \UART:cts_wire\ : bit;
-SIGNAL Net_10 : bit;
+SIGNAL Net_85 : bit;
 SIGNAL \UART:rts_wire\ : bit;
 SIGNAL \UART:mosi_m_wire\ : bit;
 SIGNAL \UART:select_m_wire_3\ : bit;
@@ -52,20 +52,21 @@ SIGNAL \UART:select_m_wire_1\ : bit;
 SIGNAL \UART:select_m_wire_0\ : bit;
 SIGNAL \UART:sclk_m_wire\ : bit;
 SIGNAL \UART:miso_s_wire\ : bit;
-SIGNAL \UART:scl_wire\ : bit;
-SIGNAL \UART:sda_wire\ : bit;
-SIGNAL Net_13 : bit;
-SIGNAL Net_12 : bit;
+SIGNAL Net_102 : bit;
+SIGNAL Net_103 : bit;
+SIGNAL Net_88 : bit;
+SIGNAL Net_87 : bit;
 SIGNAL \UART:Net_1000\ : bit;
-SIGNAL Net_8 : bit;
-SIGNAL Net_9 : bit;
-SIGNAL Net_18 : bit;
-SIGNAL Net_19 : bit;
-SIGNAL Net_20 : bit;
-SIGNAL Net_21 : bit;
-SIGNAL Net_22 : bit;
-SIGNAL Net_23 : bit;
-SIGNAL Net_24 : bit;
+SIGNAL Net_84 : bit;
+SIGNAL Net_93 : bit;
+SIGNAL Net_94 : bit;
+SIGNAL Net_95 : bit;
+SIGNAL Net_96 : bit;
+SIGNAL Net_97 : bit;
+SIGNAL Net_98 : bit;
+SIGNAL Net_99 : bit;
+SIGNAL Net_101 : bit;
+SIGNAL Net_104 : bit;
 SIGNAL tmpOE__Pin_Moisture_Sensor_net_0 : bit;
 SIGNAL tmpIO_0__Pin_Moisture_Sensor_net_0 : bit;
 TERMINAL tmpSIOVREF__Pin_Moisture_Sensor_net_0 : bit;
@@ -305,7 +306,7 @@ Pin_LED_blue:cy_psoc3_pins_v1_10
 	GENERIC MAP(cy_registers=>"",
 		scb_mode=>2)
 	PORT MAP(clock=>\UART:Net_847\,
-		interrupt=>Net_10,
+		interrupt=>Net_85,
 		rx=>\UART:rx_wire\,
 		tx=>\UART:tx_wire\,
 		cts=>zero,
@@ -318,10 +319,10 @@ Pin_LED_blue:cy_psoc3_pins_v1_10
 		miso_s=>\UART:miso_s_wire\,
 		select_s=>zero,
 		sclk_s=>zero,
-		scl=>\UART:scl_wire\,
-		sda=>\UART:sda_wire\,
-		tx_req=>Net_13,
-		rx_req=>Net_12);
+		scl=>Net_102,
+		sda=>Net_103,
+		tx_req=>Net_88,
+		rx_req=>Net_87);
 Pin_Moisture_Sensor:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e384f3c8-4aab-44c3-bd2e-4d4b0c4a9d0f",
 		drive_mode=>"011",

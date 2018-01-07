@@ -11,7 +11,13 @@
 */
 #include "project.h"
 #include <stdio.h>
+//Global variable definitions
+#define startingHour 10
+#define endingHour 20
 
+
+void checkLight(){
+}
 int main(void)
 {
     uint16 sensorval;

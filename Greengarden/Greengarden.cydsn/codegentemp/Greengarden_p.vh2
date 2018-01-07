@@ -1,6 +1,6 @@
 -- Project:   Greengarden
--- Generated: 01/03/2018 16:33:56
--- PSoC Creator  4.1 Update 1
+-- Generated: 01/07/2018 15:57:49
+-- PSoC Creator  4.1
 
 ENTITY Greengarden IS
     PORT(
@@ -33,10 +33,10 @@ ARCHITECTURE __DEFAULT__ OF Greengarden IS
     SIGNAL ClockBlock_Routed1 : bit;
     SIGNAL ClockBlock_SysClk : bit;
     SIGNAL ClockBlock_WCO : bit;
-    SIGNAL Net_10 : bit;
-    SIGNAL Net_12 : bit;
-    SIGNAL Net_13 : bit;
     SIGNAL Net_80 : bit;
+    SIGNAL Net_85 : bit;
+    SIGNAL Net_87 : bit;
+    SIGNAL Net_88 : bit;
     SIGNAL Pin_LED_blue(0)__PA : bit;
     SIGNAL Pin_Moisture_Sensor(0)__PA : bit;
     SIGNAL Pin_pump(0)__PA : bit;
@@ -727,7 +727,7 @@ BEGIN
             scb_mode => 2)
         PORT MAP(
             clock => \UART:Net_847_ff1\,
-            interrupt => Net_10,
+            interrupt => Net_85,
             uart_rx => \UART:rx_wire\,
             uart_tx => \UART:tx_wire\,
             uart_cts => open,
@@ -743,7 +743,7 @@ BEGIN
             miso_s => \UART:miso_s_wire\,
             select_s => open,
             sclk_s => open,
-            tr_tx_req => Net_13,
-            tr_rx_req => Net_12);
+            tr_tx_req => Net_88,
+            tr_rx_req => Net_87);
 
 END __DEFAULT__;
