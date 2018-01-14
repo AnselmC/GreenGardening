@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Greengarden\Greengarden\Greengarden.cydwr">
+<ExpandedNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\TopDesign</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Pins</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Analog</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Clocks</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Interrupts</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\System</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Directives</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Flash Security</v>
+<v>Greengarden\Greengarden\Header Files</v>
+<v>Greengarden\Greengarden\Header Files\cyapicallbacks.h</v>
+<v>Greengarden\Greengarden\Source Files</v>
+<v>Greengarden\Greengarden\Source Files\main.c</v>
+<v>Greengarden\Greengarden\Generated_Source</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\TopDesign</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Pins</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Analog</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Clocks</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Interrupts</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\System</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Directives</v>
+<v>Greengarden\Greengarden\Greengarden.cydwr\Flash Security</v>
+<v>Greengarden\Greengarden\Header Files</v>
+<v>Greengarden\Greengarden\Header Files\cyapicallbacks.h</v>
+<v>Greengarden\Greengarden\Source Files</v>
+<v>Greengarden\Greengarden\Source Files\main.c</v>
+<v>Greengarden\Greengarden\Generated_Source</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\cy_boot</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\cy_lfclk</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_LED_blue</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_Light_Sensor</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_Light_Sensor_int</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_Moisture_Sensor</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_Moisture_Sensor_int</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\Pin_pump</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\RTC</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\UART</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\UART_rx</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>Greengarden\Greengarden\Generated_Source\PSoC4\UART_tx</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Greengarden">
+<ExpandedNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\TopDesign</v>
+<v>Greengarden\Greengarden\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\TopDesign</v>
+<v>Greengarden\Greengarden\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\CortexM0</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_blue.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_blue_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Light_Sensor.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Light_Sensor_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Moisture_Sensor.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Moisture_Sensor_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_pump.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_pump_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\RTC.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Greengarden.elf</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Greengarden.hex</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Greengarden.map</v>
+<v>Greengarden\Greengarden\Greengarden.gpdsc</v>
+<v>Greengarden\Greengarden\Greengarden.rpt</v>
+<v>Greengarden\Greengarden\Greengarden_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\CortexM0</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_blue.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_blue_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Light_Sensor.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Light_Sensor_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Moisture_Sensor.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Moisture_Sensor_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_pump.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_pump_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\RTC.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
+<v>Greengarden\Greengarden\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\PSoC 4 Architecture TRM</v>
+<v>Greengarden\Greengarden\PSoC 4200 BLE Family Datasheet</v>
+<v>Greengarden\Greengarden\System Reference Guides</v>
+<v>Greengarden\Greengarden\System Reference Guides\cy_boot_v5_60</v>
+<v>Greengarden\Greengarden\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Greengarden\Greengarden\cy_isr_v1_70</v>
+<v>Greengarden\Greengarden\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Greengarden\Greengarden\cy_pins_v2_20</v>
+<v>Greengarden\Greengarden\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Greengarden\Greengarden\RTC_P4_v1_10.pdf</v>
+<v>Greengarden\Greengarden\SCB_P4_v4_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Greengarden</v>
+<v>Greengarden\Greengarden</v>
+<v>Greengarden\Greengarden\PSoC 4 Architecture TRM</v>
+<v>Greengarden\Greengarden\PSoC 4200 BLE Family Datasheet</v>
+<v>Greengarden\Greengarden\System Reference Guides</v>
+<v>Greengarden\Greengarden\System Reference Guides\cy_boot_v5_60</v>
+<v>Greengarden\Greengarden\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Greengarden\Greengarden\cy_isr_v1_70</v>
+<v>Greengarden\Greengarden\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Greengarden\Greengarden\cy_pins_v2_20</v>
+<v>Greengarden\Greengarden\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Greengarden\Greengarden\RTC_P4_v1_10.pdf</v>
+<v>Greengarden\Greengarden\SCB_P4_v4_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Greengarden.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Greengarden.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="799, 431" SelectedTabbedMdiWindow="819a6ef2-db81-4009-9fd4-1566efa302b3"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="cc381ddd-c730-4f06-b7a9-a5dd62d749c1" /><DocumentWindow Key="T:\Dokumente\Uni\TUM\6.Semester\Embedded Systems\GreenGardening\Greengarden\Greengarden.cydsn\TopDesign\TopDesign.cysch" Guid="819a6ef2-db81-4009-9fd4-1566efa302b3" /><DocumentWindow Key="T:\Dokumente\Uni\TUM\6.Semester\Embedded Systems\GreenGardening\Greengarden\Greengarden.cydsn\main.c" Guid="fb446bb2-f43e-4f31-8896-91dd0d256c47" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
