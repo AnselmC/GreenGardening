@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.14)  14 JAN 2018 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.14)  14 JAN 2018 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,25 +450,25 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<micro.png, id=91, 1606.0pt x 759.83875pt>
+<micro.png, id=95, 1606.0pt x 759.83875pt>
 File: micro.png Graphic file (type png)
  <use micro.png>
 Package pdftex.def Info: micro.png used on input line 59.
 (pdftex.def)             Requested size: 418.25368pt x 197.87805pt.
 
-<moisture-sensor.png, id=92, 726.715pt x 740.7675pt>
+<moisture-sensor.png, id=96, 726.715pt x 740.7675pt>
 File: moisture-sensor.png Graphic file (type png)
  <use moisture-sensor.png>
 Package pdftex.def Info: moisture-sensor.png used on input line 71.
 (pdftex.def)             Requested size: 363.3566pt x 370.38284pt.
 
-<light-sensor.png, id=94, 501.875pt x 445.665pt>
+<light-sensor.png, id=98, 501.875pt x 445.665pt>
 File: light-sensor.png Graphic file (type png)
  <use light-sensor.png>
 Package pdftex.def Info: light-sensor.png used on input line 83.
 (pdftex.def)             Requested size: 250.93687pt x 222.83195pt.
 
-[2 <./micro.png>] <relais.png, id=100, 501.875pt x 501.875pt>
+[2 <./micro.png>] <relais.png, id=104, 501.875pt x 501.875pt>
 File: relais.png Graphic file (type png)
  <use relais.png>
 Package pdftex.def Info: relais.png used on input line 99.
@@ -490,26 +490,32 @@ Overfull \hbox (8.80077pt too wide) in paragraph at lines 191--193
 [][][][][][][][] 
  []
 
-[7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+[7] [8] [9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
  (./GreenGardening.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
-Package rerunfilecheck Info: File `GreenGardening.out' has not changed.
-(rerunfilecheck)             Checksum: FD4AE1CAA59840680C926FD275852033;1269.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
 
+
+Package rerunfilecheck Warning: File `GreenGardening.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `GreenGardening.out':
+(rerunfilecheck)             Before: 7C66EF94F9248E80A7FE864B259A18EC;1329
+(rerunfilecheck)             After:  AA0E82E15505F25FA7EB5320EE8192C8;1652.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
  ) 
 Here is how much of TeX's memory you used:
- 9323 strings out of 492995
- 148955 string characters out of 6132704
+ 9332 strings out of 492995
+ 149069 string characters out of 6132704
  365324 words of memory out of 5000000
- 12675 multiletter control sequences out of 15000+600000
+ 12676 multiletter control sequences out of 15000+600000
  13022 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,51p,8927b,1663s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -520,10 +526,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on GreenGardening.pdf (9 pages, 2176662 bytes).
+Output written on GreenGardening.pdf (11 pages, 2182510 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 113 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

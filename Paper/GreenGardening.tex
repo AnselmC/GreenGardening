@@ -266,4 +266,63 @@ UART_UartPutString(buffer);
 \end{lstlisting}
 
 \section{Learnings from the lecture}
+
+The lecture related to is a union of the two lectures Embedded Systems and Real Time Systems, as they are closely related. How strong these two subject interleave became as much clearer while releasing this Project.
+
+\subsection{The System}
+  
+According to the lecture an embedded system is a system which has a particular function within a larger mechanical or electrical system, often with real-time computing constraints. 
+It is therefore quite far-fatched to call the Modul in use embedded.  The Modul is the only and therefore main logic in our system and most definitely isn't the system a ?larger? mechanical system.
+But since the system does has real-time computing constraints and the System is just in the making, expecting expansion through hardware and additional logic parts in the near future, it will from her on be referred to as an Embedded System.
+However at this moment the system is a synchronous digital circuit since ?all? logic is connected to the same clock.
+A real-time System is defined as a computer system which accuracy doesn?t only depend on the logical result but also on the physical point in time by which the result is produced. 
+ 
+Since certain tasks of our system depend on the time of the day it has to be referred to as ?real-time System? according to this definition, also the author probably had a bit smaller unit for the time in mind.
+At the moment we are working on extending the systems functionality by making use of the PSoC?s integrated Bluetooth interface. Thereby transforming the system to a smart device making it controllable via smartphone as well as graphically representing the accumulating data on the phone.
+By doing so the system will become a Cyber-physical systems in accordance with the definition of Cyber-physical systems from the lecture.
+
+\subsection{Operator Cluster}
+
+The human who makes use of the system, calibrating it to the specifics of the plant and turning the system on and off.
+
+\subsection{Computational Cluster}
+
+The \_\_\_\_\_ Modul from Cypress.
+ 
+\subsection{Controlled Cluster}
+
+Is made up of the sensors as well as the light and the pump.
+
+\subsection{The Logic}
+Since ?embedded System? refers to how a logic device is integrated in a larger system and not the device itself it can refer to just about every logic device. 
+All these different devices were categorized in the lecture.
+The module in use (for more information on the model refer to the hardware chapter) is an ?Programmable System on a Chip? (PSoC).
+We choose the module inspired by a reference from the lecture referring to its great flexibility as well as great compatibility. 
+Additionally we were really keen on trying out the IDE PSoC creator which was also referred to in the lecture.
+At the beginning of our project we sat down analysing the module with the information given to us by the lecture. 
+We recognised the real time capability of the ARM Cortex-M0 CPU through characteristic like the on board real time clock supported by an on board button cell and the by default missing cache. 
+From the lecture we knew that also most of the time a cache increases the performance of the device it can in extreme cases lead to a greater worst case runtime making timing issues difficult to analyse. 
+\subsection{Real time}
+As stated already in the beginning of this chapter the System can be categorized as a real time system. This is at moment manly do to the implementation of the lighting system.    
+The implementation of the lighting system as it is is a combination of a ?Time triggered applications? and an ?Event-driven applications?. The light is supposed to switch on whenever the light sensor signals that it is to dark. Therefore it is clearly event driven. 
+But since a plant naturally also needs a time during which it is dark the signal of the light sensor should only be incorporate during certain times of the day. In the extreme case of permanent total darkness the light will always be switch on over a constant time period during a certain time of the day. In this case you can without objection say that the entire time cycle was determined during compile time thereby making it a pure time triggered application. 
+It would be possible to realise the system through purely time triggered applications. But this would lead to an reduction in flexibility and effectiveness of the system since parameters for temperature and humidity would have to be known already during compile time. These parameters would also have to be final since time triggered applications by definition don?t react to external signals and are therefore inflexible. 
+The dependency on the time of the day is what makes the system a real time system.
+Thanks to an on board real time clock the modul can guarantee the accuracy of the system. A button cell powers the clock during times in which the modul isn?t connected to its main power supply, for example during transport.   
+It would be preferable to use an mor accurate external quartz crystal oscillators to minimize the drift.  
+But since most plants are quite durable the don't require such high precision for when the light shines and when not.
+This leads directly to the question of what kind of real time system we are dealing with.
+For hard real time systems the lecture states:
+ 
+?A violation of the defined deadlines can immediately lead to severe consequences?
+ 
+A plant pretty much doesn't care when it is watered and at what time of the day it gets light as long as it gets enough of both in the end of the day. 
+Therefore if the system fails to react instantaneously to a signal of one of the sensors or the clock there won't be any severe consequences.
+For soft real time systems the lecture states among other things: 
+?...an overrun of those deadlines is not catastrophic...?
+and
+?Overall it is possible that the breach of the time limit will produce a degradation in service...?
+The system is therefore clearly a soft real time system. Since a miss of a deadline can in the worst case only result in a degradation of growth of the plant. 
+
+
 \end{document}  
