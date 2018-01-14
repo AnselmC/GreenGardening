@@ -1,6 +1,0 @@
-Last Modified Date & Time: 01/14/2018 14:25:46
-
-Greengarden: TopDesign.cysch
-	UART [v3.20] to [v4.0]
-
-
