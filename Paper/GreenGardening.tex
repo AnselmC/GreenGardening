@@ -5,7 +5,8 @@
 \usepackage{graphicx}				% Use pdf, png, jpg, or epsÂ§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
-\usepackage{listings}
+\usepackage{listings}				% For code snippets
+\usepackage{hyperref}				% For hyperlinks
 
 %SetFonts
 
@@ -20,6 +21,103 @@
 \begin{document}
 \maketitle
 \section{Hardware}
+
+\subsection{\href{http://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-psoc-4-pioneer-kit}{CY8CKIT-042 PSoC® 4 Pioneer Kit}}
+
+Cypress' CY8CKIT-042 PSoC 4 Pioneer Kit is used as the basis for the project. We decided to use Cypress? product because of several reasons. First, the father of a team member works for Cypress and we got the Pioneer Kit for free which is always great. Second, Cypress' PSoC Creator Software to program the kit is a free IDE which features hardware and software co-design and a library with pre-characterized PSoC components. Third, Cypress offers the PSoC 101 Video Tutorial Series which demonstrates how to use the development kits. We all watched the videos and could learn a lot from them.
+
+The kit contains the PSoC 4 Pioneer board, a quick start guide, a USB Standard-A to Mini-B cable and six jumper wires.
+
+The Pioneer Kit consists of the following blocks:
+\begin{itemize}
+	\item PSoC 4
+	\begin{itemize}
+		\item 32-bit MCU subsystem, 48 MHz ARM Cortex-M0 CPU, 32 KB flash, 4 KB SRAM
+		\item Programmable analog: Two opamps, 12-bit SAR ADC
+		\item Low power 1.71 to 5.5 V operation
+		\item Serial communication via I2C, SPO and UART
+		\item Timing and pulse-width modulation 
+	\end{itemize}
+	\item PSoC 5LP
+	\begin {itemize}
+		\item used to program and debug PSoC 4
+		\item 32-bit ARM Cortex-M3 CPU core
+		\item Precision, programmable clocking: 32.768 kHz watch crystal oscillator
+	\end{itemize}
+	\item Power supply system
+	\item PSoC 5LP GPIO header (J8)
+	\item Programming interfaces (J6, J7, J10)
+	\item CapSense slider
+	\item Arduino compatible headers 
+	\item Pioneer board LEDs
+	\item Digilent Pmod compatible header (J5)
+	\item Push buttons (Reset and User buttons)
+\end{itemize}
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=\linewidth]{micro.png}
+	\caption{PsoC 4 Pioneer Board}
+	\label{fig:micro}
+	\end{center}
+\end{figure}
+
+\subsection{Kuman moisture sensor}
+
+The soil moisture module is used to detect the moisture content of the soil. If the soil is too dry the electrical pump is switched on. It is possible to adjust the threshold of the soil humidity with the potentiometer. The digital output D0 is directly connected to the pioneer kit via a digital input  pin. The operating voltage is 3.3 V to 5 V and is supplied from the pioneer kit.
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=50mm, scale=0.5]{moisture-sensor.png}
+	\caption{Kuman moisture sensor}
+	\label{fig:moisture}
+	\end{center}
+\end{figure}
+
+\subsection{Arduino light sensor LM393}
+
+The light sensor works pretty similar to the moisture sensor.  It detects the brightness of the surroundings. If there is not enough sunlight the LEDs are turned on. The threshold can be adjusted with the potentiometer. The digital output pin D0 is connected to the pioneer kit via a digital input pin. The operating voltage is 3.3 V to 5 V and is supplied from the pioneer kit.
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=50mm, scale=0.5]{light-sensor.png}
+	\caption{Arduino light sensor LM393}
+	\label{fig:moisture}
+	\end{center}
+\end{figure}
+
+\subsection{LE Trafo 12V DC}
+
+The 12V Trafo is used as a power supply for the LED stripes and brushless mini water pump. Its input voltage is 100-240 V AC, 50 - 60 Hz and output voltage 12 V DC, 2A.
+
+\subsection{SainSmart 4 channel relay module}
+
+The SainSmart relay module allows the PSoC to control larger loads and devices like the 12 V LED stripes and the brushless water pump with a digital output pin. The operating voltage is 5 V and each relay needs 15-20 mA driver current. 
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=50mm, scale=0.5]{relais.png}
+	\caption{SainSmart 4 channel relay module}
+	\label{fig:relais}
+	\end{center}
+\end{figure}
+
+\subsection{TSSS brushless mini water pump}
+
+The brushless mini water pump is switched on for 10 seconds via a digital output pin from the PSoC that controls the relay if the soil is too dry. It pumps water from a basket and moistures the soil. The operating voltage is 12 V and it needs 400 mA driver current. This is supplied by the 12 V Trafo.
+
+\subsection{Neuftech LED strips blue and red}
+
+The LED strips in blue and red work similar to the water pump. They are switched on via a digital output pin from the PSoC that controls the relay if there is not enough sunlight. The operating voltage is 12 V. This is supplied by the 12 V Trafo.
+
+\subsection{Plant}
+
+The most important part for our project: a nice plant that will hopefully survive for a long time with the help of all the other parts.
+
+\subsection{Schematic}
+
+TODO
+
 \section{Software}
 
 As stated in the previous chapter we used the free IDE \emph{PsoC Creator} to program the micro controller. This software offers a three layer approach. 
