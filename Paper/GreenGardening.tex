@@ -31,10 +31,9 @@
 
 \subsection{\href{http://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-psoc-4-pioneer-kit}{CY8CKIT-042 PSoC® 4 Pioneer Kit}}
 
-Cypress' CY8CKIT-042 PSoC 4 Pioneer Kit is used as the basis for the project. We decided to use Cypress' product because of several reasons. First, the father of a team member works for Cypress and we got the Pioneer Kit for free. Second, Cypress' PSoC Creator Software to program the kit is a free IDE which features hardware and software co-design and a library with pre-characterized PSoC components. Third, Cypress offers the PSoC 101 Video Tutorial Series which demonstrates how to use the development kit and offers valuable guiding for the first steps of embedded programming. All contributors watched the videos and could learn a lot from them.
+For this project we used the Cypress' CY8CKIT-042 PSoC 4 Pioneer Kit as a basis. We decided to use Cypress' product for several reasons. Firstly, the father of one team member works for Cypress and supplied us with a free sample kit. Secondly, Cypress' PSoC Creator IDE for programming their kits is free, easy to use and features hardware and software co-design and a library with pre-characterized PSoC components. Lastly, Cypress there is a vast amount of tutorial videos explaining the hardware and software which taught us a lot.
 
-The kit contains the PSoC 4 Pioneer board, a quick start guide, a USB Standard-A to Mini-B cable and six jumper wires.
-
+The aforementioned kit contains the PSoC 4 Pioneer board, a quick start guide, a USB Standard-A to Mini-B cable, and six jumper wires.
 The Pioneer Kit consists of the following blocks:
 \begin{itemize}
 	\item PSoC 4
@@ -71,7 +70,7 @@ The Pioneer Kit consists of the following blocks:
 
 \subsection{Kuman moisture sensor}
 
-The moisture module is used to detect the moisture content of the soil. If the soil is too dry the electrical pump is switched on. It is possible to adjust the threshold of the soil humidity with the potentiometer. The digital output D0 is directly connected to the pioneer kit via a digital input  pin. The operating voltage is 3.3 V to 5 V and is supplied from the pioneer kit.
+The moisture module is used to detect the moisture content of the soil. It is possible to adjust the threshold of the soil humidity with the potentiometer. The digital output D0 is directly connected to the pioneer kit via one of the digital input pin. The operating voltage is 3.3-5V and is supplied by the pioneer kit.
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -83,7 +82,7 @@ The moisture module is used to detect the moisture content of the soil. If the s
 
 \subsection{Arduino light sensor LM393}
 
-The light sensor works pretty similar to the moisture sensor.  It detects the brightness of the surroundings. If there is not enough sunlight the LEDs are turned on. The threshold can be adjusted with the potentiometer. The digital output pin D0 is connected to the pioneer kit via a digital input pin. The operating voltage is 3.3 V to 5 V and is supplied from the pioneer kit.
+The light sensor works pretty similar to the moisture sensor.  It detects the brightness of the surroundings. The threshold can be adjusted with the potentiometer. The digital output pin D0 is connected to the pioneer kit via another digital input pin. The operating voltage is 3.3-5V and is supplied by the pioneer kit.
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -95,11 +94,11 @@ The light sensor works pretty similar to the moisture sensor.  It detects the br
 
 \subsection{LE Trafo 12V DC}
 
-The 12V Trafo is used as a power supply for the LED stripes and brushless mini water pump. Its input voltage is 100-240 V AC, 50 - 60 Hz and output voltage 12 V DC, 2A.
+The 12V Trafo is used as a power supply for the LED strips and the brushless mini water pump. Its input voltage is 100-240V AC, 50 - 60 Hz and the output voltage is 12V DC, 2A.
 
 \subsection{SainSmart 4 channel relay module}
 
-The SainSmart relay module allows the PSoC to control larger loads and devices like the 12 V LED stripes and the brushless water pump with a digital output pin. The operating voltage is 5 V and each relay needs 15-20 mA driver current. 
+The SainSmart relay module allows the PSoC to control larger loads and devices like the 12V LED strips and the brushless water pump with a digital output pin. The operating voltage is 5V and each relay needs 15-20 mA driver current. 
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -111,15 +110,15 @@ The SainSmart relay module allows the PSoC to control larger loads and devices l
 
 \subsection{TSSS brushless mini water pump}
 
-The brushless mini water pump is switched on for 10 seconds via a digital output pin from the PSoC that controls the relay if the soil is too dry. It pumps water from a basket and moistures the soil. The operating voltage is 12 V and it needs 400 mA driver current. This is supplied by the 12 V Trafo.
+The brushless mini water pump is switched on for 10 seconds via a digital output pin from the PSoC that controls the relay if the soil is too dry. It pumps water from a basket and moistures the soil. The operating voltage is 12V and it needs 400 mA driver current. This is supplied by the 12V Trafo.
 
 \subsection{Neuftech LED strips blue and red}
 
-The LED strips in blue and red work similar to the water pump. They are switched on via a digital output pin from the PSoC that controls the relay if there is not enough sunlight. The operating voltage is 12 V. This is supplied by the 12 V Trafo.
+The LED strips in blue and red work similar to the water pump. They are switched on via a digital output pin from the PSoC that controls the relay if there is not enough sunlight. The operating voltage is 12V. This is supplied by the 12V Trafo.
 
 \subsection{Plant}
 
-The most important part for our project: a nice plant that will hopefully survive for a long time with the help of all the other parts.
+The non-tech part of our project: a beautiful plant that will learn to love it's automated surroundings.
 
 \subsection{Schematic}
 
