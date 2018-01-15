@@ -46,7 +46,7 @@ void checkLight()
 
             Pin_LED_blue_Write(ON);   
         } 
-        // Else turn them off
+        /* Else turn them off */
         else 
         {
             sprintf(buffer, "Turning LEDs off\r\n");
