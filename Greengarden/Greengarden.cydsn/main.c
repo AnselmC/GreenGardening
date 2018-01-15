@@ -11,6 +11,8 @@
 
 char buffer[BUFFER_SIZE];
 
+// gitignore
+
 void checkLight()
 {
     sprintf(buffer, "Checking light\r\n");
