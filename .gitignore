@@ -10,6 +10,9 @@
 # Include paper #
 !Paper/*
 
+# Exclude DS_Store #
+Paper/.DS_Store
+
 # Include Greengarden #
 !Greengarden/
 
