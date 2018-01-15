@@ -1,0 +1,29 @@
+# Ignore everything #
+*
+# Include important files in main directory #
+!.gitignore
+!README.md
+
+# Include home directory #
+!*/
+
+# Include paper #
+!Paper/*
+
+# Include Greengarden #
+!Greengarden/
+
+# Exclude subfiles of Greengarden #
+Greengarden/*
+
+# Include Greengarden.cydsn #
+!Greengarden/Greengarden.cydsn/
+
+# Exclude subfiles of Greengarden/Greengarden.cydsn/ #
+Greengarden/Greengarden.cydsn/*
+
+# Include main.c
+!Greengarden/Greengarden.cydsn/main.c
+
+# Include TopDesign #
+!Greengarden/Greengarden.cydsn/TopDesign/*
