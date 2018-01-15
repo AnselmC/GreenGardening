@@ -1,6 +1,0 @@
-C:\Users\Christoph Clement\Dropbox\Dokumente\Studium\6. Semester\IN8014 Embedded Systems\PSoC\Greengarden\Greengarden\Greengarden.cydsn\Greengarden.cyprj|599ad43c-e691-45ef-aebf-dd11acd1333f
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|82c0b6f9-ada1-4373-be20-ebb871609038
-C:\Users\Christoph Clement\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|64464389-abe8-40c6-97f2-305ee63045d8
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a65456fe-b78c-4f49-8b63-69af3930f9fe
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|841f70bd-3ff1-4c40-b530-5d8cefdba3c5
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f9271472-87a5-41e4-9ac3-d3f7e6cd45f1

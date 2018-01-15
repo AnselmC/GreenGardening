@@ -1,9 +1,0 @@
-# Ignore everything #
-*
-# Files/folders to include #
-############################
-!*/TopDesign/*
-!*/main.c
-!Paper/*
-!README.md
-
