@@ -15,7 +15,7 @@ void checkLight()
 {
     sprintf(buffer, "Checking light\r\n");
     UART_UartPutString(buffer);
-    // Get current hour
+    // Get current hour for clock
     int hour = RTC_GetHours(RTC_GetTime());
     sprintf(buffer, "Current hour: %d\r\n", hour);
     UART_UartPutString(buffer);
