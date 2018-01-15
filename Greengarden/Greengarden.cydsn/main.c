@@ -11,7 +11,7 @@
 
 char buffer[BUFFER_SIZE];
 
-// gitignore
+// gitignore 2
 
 void checkLight()
 {
