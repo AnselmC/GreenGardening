@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.11)  14 JAN 2018 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.11)  15 JAN 2018 12:43
 entering extended mode
 **./GreenGardening.tex
 (GreenGardening.tex
@@ -430,77 +430,88 @@ Overfull \hbox (33.4158pt too wide) in paragraph at lines 23--23
  [][] 
  []
 
+[1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (GreenGardening.toc
+Missing character: There is no ® in font cmr10!
+)
+\tf@toc=\write4
+\openout4 = `GreenGardening.toc'.
+
+
+[2]
 Missing character: There is no ® in font cmssbx10!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] <micro.png, id=114, 1606.
-0pt x 759.83875pt>
+<micro.png, id=143, 1606.0pt x 759.83875pt>
 File: micro.png Graphic file (type png)
-
-<use micro.png>
-Package pdftex.def Info: micro.png used on input line 59.
+ <use micro.png>
+Package pdftex.def Info: micro.png used on input line 66.
 (pdftex.def)             Requested size: 418.25368pt x 197.87805pt.
- <moisture-sensor.png, id=115, 726.715pt x 740.7675pt>
+ [3]
+<moisture-sensor.png, id=150, 726.715pt x 740.7675pt>
 File: moisture-sensor.png Graphic file (type png)
 
 <use moisture-sensor.png>
-Package pdftex.def Info: moisture-sensor.png used on input line 71.
+Package pdftex.def Info: moisture-sensor.png used on input line 78.
 (pdftex.def)             Requested size: 363.3566pt x 370.38284pt.
- <light-sensor.png, id=117, 501.875pt x 445.665pt>
+ [4 <./micro.png> <./moisture-sensor.png>]
+<light-sensor.png, id=159, 501.875pt x 445.665pt>
 File: light-sensor.png Graphic file (type png)
-
-<use light-sensor.png>
-Package pdftex.def Info: light-sensor.png used on input line 83.
+ <use light-sensor.png>
+Package pdftex.def Info: light-sensor.png used on input line 90.
 (pdftex.def)             Requested size: 250.93687pt x 222.83195pt.
- [2 <./micro.png>]
-<relais.png, id=123, 501.875pt x 501.875pt>
+
+<relais.png, id=160, 501.875pt x 501.875pt>
 File: relais.png Graphic file (type png)
  <use relais.png>
-Package pdftex.def Info: relais.png used on input line 99.
+Package pdftex.def Info: relais.png used on input line 106.
 (pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
- [3 <./moisture-sensor.png> <./light-sensor.png>] [4 <./relais.png>] [5]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 170.
+ [5 <./light-sensor.png>] [6 <./relais.png>] [7]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 177.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 170.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 177.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
- [6]
-Overfull \hbox (8.80077pt too wide) in paragraph at lines 191--193
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
+
+Overfull \hbox (8.80077pt too wide) in paragraph at lines 198--200
 [][][][][][][][] 
  []
 
-[7] [8] [9] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+[8] [9] [10] [11] (GreenGardening.lof [12])
+\tf@lof=\write5
+\openout5 = `GreenGardening.lof'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  (GreenGardening.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `GreenGardening.out' has not changed.
 (rerunfilecheck)             Checksum: AEC537E2776D3E3F498F4D13D6A904F9;1677.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 9351 strings out of 493323
- 148612 string characters out of 3139028
- 366457 words of memory out of 3000000
- 12680 multiletter control sequences out of 15000+200000
+ 9378 strings out of 493323
+ 149108 string characters out of 3139028
+ 365457 words of memory out of 3000000
+ 12697 multiletter control sequences out of 15000+200000
  13022 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,51p,8929b,1663s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -511,9 +522,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb>
-Output written on GreenGardening.pdf (11 pages, 2207629 bytes).
+Output written on GreenGardening.pdf (13 pages, 2215666 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
