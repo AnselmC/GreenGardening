@@ -1,0 +1,6 @@
+X:\Dokumente\Uni\TUM\6.Semester\Embedded Systems\GreenGardening\Greengarden\Greengarden.cydsn\Greengarden.cyprj|34b31424-232d-48dd-bd87-f855f9a400e2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|61700d29-8337-4454-8a19-9a4a3fbe9cf7
+\\Mac\Home\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|0a45e533-94d0-46de-ac92-8048aeee658b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|fe985ad4-719d-4e22-8430-a7116e6af8ce
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|7e1b947b-779b-4857-9afb-f27eeb263914
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|cdeafda6-514f-45e0-af2c-39d5748914b4
